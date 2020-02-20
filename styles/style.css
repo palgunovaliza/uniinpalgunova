@@ -1,0 +1,122 @@
+body{
+  background: black;
+}
+
+.squares {
+  position: relative;
+}
+
+.square1 {
+  position: absolute;
+  transform: rotate(270deg);
+  height: 987px;
+  top: 26vw;
+  right: 15vw;
+  z-index: 10;
+}
+
+.square2 {
+  position: absolute;
+  transform: rotate(270deg);
+  height: 987px;
+  top: 70vw;
+  right: 15vw;
+  z-index: 20;
+}
+
+.square3 {
+  position: absolute;
+  transform: rotate(270deg);
+  height: 987px;
+  top: 115vw;
+  right: 15vw;
+  z-index: 30;
+}
+
+.redyellow {
+  position: absolute;
+  transform: rotate(270deg);
+  top: -7vw;
+  left: 69vw;
+  z-index: 5px;
+
+}
+
+.ellipseyellow {
+  position: absolute;
+  transform: rotate(270deg);
+  top: 15.5vw;
+  left: 16vw;
+  z-index: 5;
+
+}
+
+.ellipseblue {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 230px;
+  top: 52vw;
+  left: 53vw;
+  z-index: 15;
+}
+
+.ellipsered {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 140px;
+  top: 111.3vw;
+  left: 19vw;
+  z-index: 25;
+}
+
+.planetyellow {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 370px;
+  top: 133vw;
+  left: 52vw;
+  z-index: 35;
+}
+
+/* @media (min-width: 1280px) and (max-width: 1920px){
+
+  div{
+    transform: rotate(0deg);
+  }
+
+  .line1 {
+    transform: translateX(24vw);
+  }
+
+  .line2 {
+    transform: translateX(48vw);
+  }
+
+  .line3 {
+    transform: translateX(73vw);
+  }
+
+  .redyellow {
+    transform: rotate(0deg) translateY(-64vw) translateX(16.8vw);
+
+  }
+
+  .ellipseyellow {
+    transform: rotate(0deg) translateY(-41vw) translateX(-8vw);
+
+  }
+
+  .ellipseblue {
+    transform: rotate(0deg) translateY(-55vw) translateX(32.3vw);
+
+  }
+
+  .ellipsered {
+    transform: rotate(0deg) translateY(-49vw) translateX(49.7vw);
+
+  }
+
+  .planetyellow {
+    transform: rotate(0deg) translateY(-28vw) translateX(24.6vw);
+
+  } */
