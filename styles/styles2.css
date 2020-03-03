@@ -1,0 +1,115 @@
+.restangle {
+  position: relative;
+}
+
+.restangle1 {
+  position: absolute;
+  background: #FFD801;
+  width: 100vw;
+  height: 44vw;
+  top: 0vw;
+  left: 0vw;
+}
+
+.restangle2 {
+  position: absolute;
+  background: black;
+  width: 100vw;
+  height: 40vw;
+  top: 44vw;
+  left: 0vw;
+}
+
+
+.restangle3 {
+  position: absolute;
+  background: red;
+  width: 100vw;
+  height: 56vw;
+  top: 83vw;
+  left: 0vw;
+}
+
+.restangle4 {
+  position: absolute;
+  background: blue;
+  width: 100vw;
+  height: 44vw;
+  top: 139vw;
+  left: 0vw;
+}
+
+.stars {
+  position: relative;
+}
+
+.staryellow {
+  position: absolute;
+  width: 80px;
+  left: 1vw;
+  top: 1vw;
+}
+
+
+.starblack1 {
+  position: absolute;
+  width: 80px;
+  left: 1vw;
+  top: 45vw;
+}
+
+.starblack2 {
+  position: absolute;
+  width: 80px;
+  left: 12vw;
+  top: 45vw;
+}
+
+.starred1{
+  position: absolute;
+  width: 80px;
+  left: 1vw;
+  top: 84vw;
+}
+
+.starred2 {
+  position: absolute;
+  width: 80px;
+  left: 12vw;
+  top: 84vw;
+}
+
+.starred3 {
+  position: absolute;
+  width: 80px;
+  left: 23vw;
+  top: 84vw;
+}
+
+.starblue1 {
+  position: absolute;
+  width: 80px;
+  left: 1vw;
+  top: 140vw;
+}
+
+.starblue2 {
+  position: absolute;
+  width: 80px;
+  left: 12vw;
+  top: 140vw;
+}
+
+.starblue3 {
+  position: absolute;
+  width: 80px;
+  left: 23vw;
+  top: 140vw;
+}
+
+.starblue4 {
+  position: absolute;
+  width: 80px;
+  left: 34vw;
+  top: 140vw;
+}
