@@ -77,6 +77,9 @@ body{
   left: 52vw;
   z-index: 35;
 }
+.restangle {
+  color: white;
+}
 
 /* @media (min-width: 1280px) and (max-width: 1920px){
 
