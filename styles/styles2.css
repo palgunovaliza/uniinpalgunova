@@ -6,7 +6,7 @@
   position: absolute;
   background: #FFD801;
   width: 100vw;
-  height: 44vw;
+  height: 42vw;
   top: 0vw;
   left: 0vw;
 }
@@ -17,7 +17,7 @@
   background: black;
   width: 100vw;
   height: 40vw;
-  top: 44vw;
+  top: 42vw;
   left: 0vw;
 }
 
@@ -27,7 +27,7 @@
   background: red;
   width: 100vw;
   height: 56vw;
-  top: 83vw;
+  top: 79vw;
   left: 0vw;
 }
 
@@ -35,8 +35,8 @@
   position: absolute;
   background: blue;
   width: 100vw;
-  height: 45vw;
-  top: 138vw;
+  height: 44vw;
+  top: 124vw;
   left: 0vw;
 }
 
@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.staryellow {
+.restangle1 .staryellow {
   position: absolute;
   height: 70px;
   left: 1vw;
@@ -52,65 +52,65 @@
 }
 
 
-.starblack1 {
+.restangle2 .starblack1 {
   position: absolute;
   height: 70px;
   left: 1vw;
-  top: 45vw;
+  top: 1vw;
 }
 
-.starblack2 {
+.restangle2 .starblack2 {
   position: absolute;
   height: 70px;
   left: 10vw;
-  top: 45vw;
+  top: 1vw;
 }
 
-.starred1{
+.restangle3 .starred1{
   position: absolute;
   height: 70px;
   left: 1vw;
-  top: 84vw;
+  top: 1vw;
 }
 
-.starred2 {
+.restangle3 .starred2 {
   position: absolute;
   height: 70px;
   left: 10vw;
-  top: 84vw;
+  top: 1vw;
 }
 
-.starred3 {
+.restangle3 .starred3 {
   position: absolute;
   height: 70px;
   left: 19vw;
-  top: 84vw;
+  top: 1vw;
 }
 
-.starblue1 {
+.restangle4 .starblue1 {
   position: absolute;
   height: 70px;
   left: 1vw;
-  top: 140vw;
+  top: 1vw;
 }
 
-.starblue2 {
+.restangle4 .starblue2 {
   position: absolute;
   height: 70px;
   left: 10vw;
-  top: 140vw;
+  top: 1vw;
 }
 
-.starblue3 {
+.restangle4 .starblue3 {
   position: absolute;
   height: 70px;
   left: 19vw;
-  top: 140vw;
+  top: 1vw;
 }
 
-.starblue4 {
+.restangle4 .starblue4 {
   position: absolute;
   height: 70px;
   left: 28vw;
-  top: 140vw;
+  top: 1vw;
 }
