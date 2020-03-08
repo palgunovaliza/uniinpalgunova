@@ -11,6 +11,7 @@
   left: 0vw;
 }
 
+
 .restangle2 {
   position: absolute;
   background: black;
@@ -34,8 +35,8 @@
   position: absolute;
   background: blue;
   width: 100vw;
-  height: 44vw;
-  top: 139vw;
+  height: 45vw;
+  top: 138vw;
   left: 0vw;
 }
 
@@ -45,7 +46,7 @@
 
 .staryellow {
   position: absolute;
-  width: 80px;
+  height: 70px;
   left: 1vw;
   top: 1vw;
 }
@@ -53,63 +54,63 @@
 
 .starblack1 {
   position: absolute;
-  width: 80px;
+  height: 70px;
   left: 1vw;
   top: 45vw;
 }
 
 .starblack2 {
   position: absolute;
-  width: 80px;
-  left: 12vw;
+  height: 70px;
+  left: 10vw;
   top: 45vw;
 }
 
 .starred1{
   position: absolute;
-  width: 80px;
+  height: 70px;
   left: 1vw;
   top: 84vw;
 }
 
 .starred2 {
   position: absolute;
-  width: 80px;
-  left: 12vw;
+  height: 70px;
+  left: 10vw;
   top: 84vw;
 }
 
 .starred3 {
   position: absolute;
-  width: 80px;
-  left: 23vw;
+  height: 70px;
+  left: 19vw;
   top: 84vw;
 }
 
 .starblue1 {
   position: absolute;
-  width: 80px;
+  height: 70px;
   left: 1vw;
   top: 140vw;
 }
 
 .starblue2 {
   position: absolute;
-  width: 80px;
-  left: 12vw;
+  height: 70px;
+  left: 10vw;
   top: 140vw;
 }
 
 .starblue3 {
   position: absolute;
-  width: 80px;
-  left: 23vw;
+  height: 70px;
+  left: 19vw;
   top: 140vw;
 }
 
 .starblue4 {
   position: absolute;
-  width: 80px;
-  left: 34vw;
+  height: 70px;
+  left: 28vw;
   top: 140vw;
 }
