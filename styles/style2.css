@@ -6,11 +6,31 @@ body{
   position: relative;
 }
 
+.yellow{
+  position: absolute;
+  background-color: yellow;
+  height: 10vw;
+  width: 70vw;
+  left: 10vw;
+  top: -1vw;
+  z-index: 99;
+}
+
+.blue{
+  position: absolute;
+  background-color: blue;
+  height: 10vw;
+  width: 70vw;
+  top: 158vw;
+  z-index: 99;
+}
+
+
 .square1 {
   position: absolute;
   transform: rotate(270deg);
   height: 987px;
-  top: 26vw;
+  top: 29vw;
   right: 15vw;
   z-index: 10;
 }
@@ -19,7 +39,7 @@ body{
   position: absolute;
   transform: rotate(270deg);
   height: 987px;
-  top: 70vw;
+  top: 66vw;
   right: 15vw;
   z-index: 20;
 }
@@ -28,7 +48,7 @@ body{
   position: absolute;
   transform: rotate(270deg);
   height: 987px;
-  top: 115vw;
+  top: 104vw;
   right: 15vw;
   z-index: 30;
 }

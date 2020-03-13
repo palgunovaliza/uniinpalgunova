@@ -1,3 +1,7 @@
+body{
+  background: black;
+}
+
 .restangle {
   position: relative;
 }
@@ -26,8 +30,8 @@
   position: absolute;
   background: red;
   width: 100vw;
-  height: 56vw;
-  top: 79vw;
+  height: 54vw;
+  top: 82vw;
   left: 0vw;
 }
 
@@ -35,8 +39,8 @@
   position: absolute;
   background: blue;
   width: 100vw;
-  height: 44vw;
-  top: 124vw;
+  height: 45vw;
+  top: 133vw;
   left: 0vw;
 }
 

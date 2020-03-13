@@ -1,5 +1,4 @@
-
-let restangle = anime({
+let restangleYellow = anime({
   targets: '.restangle1',
   height: 100,
   autoplay: false,
@@ -8,36 +7,37 @@ let restangle = anime({
 
 })
 
-let restangle1Click =
+
+let restangleClick =
 document.querySelector('.restangle1')
 
-restangle1Click.onclick = restangle.play
+restangleClick.onclick = restangleYellow.play
 
-let restanglered = anime({
+let restangleRed = anime({
   targets: '.restangle3',
   height: 100,
   autoplay: false,
   duration: 200,
-  top: 1444,
+  top: 1539,
   easing:'easeInSine'
 })
 
-let restangle1Click2 =
+let restangleClick2 =
 document.querySelector('.restangle3')
 
-restangle1Click2.onclick = restanglered.play
+restangleClick2.onclick = restangleRed.play
 
-let restangleblue = anime({
+let restangleBlue = anime({
   targets: '.restangle4',
   height: 100,
   autoplay: false,
   duration: 200,
-  top: 1543,
+  top: 1638,
   easing:'easeInSine'
 })
 
 
-let restangle1Click3 =
+let restangleClick3 =
 document.querySelector('.restangle4')
 
-restangle1Click3.onclick = restangleblue.play
+restangleClick3.onclick = restangleBlue.play
