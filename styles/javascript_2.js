@@ -1,61 +1,26 @@
-let redyellow = anime ({
-targets: '.redyellow',
-top: ['27px','-110px'],
-easing:'easeInSine',
-duration: 900,
-autoplay: false
+let tl = anime.timeline({
+  autoplay: false
 })
 
-let redyellowonclick =
+tl
+  .add({
+    targets: '.redyellow',
+    top: ['27px','-115px'],
+    easing:'easeInSine',
+    duration: 800,
+  }, 0)
+  .add({
+    targets: '.bluered',
+    top: ['-300px','-25px'],
+    easing:'easeInSine',
+    duration: 800,
+  }, 0)
+
+
+let planetyellowClick =
 document.querySelector('.redyellow')
-redyellowonclick.onclick = redyellow.play
+planetyellowClick.onclick = tl.play
 
-let ellipseyellow = anime ({
-targets: '.ellipseyellow',
-top: ['214px','400px'],
-easing:'easeInSine',
-duration: 900,
-autoplay: false
-})
-
-let ellipseyellowonclick =
-document.querySelector('.ellipseyellow')
-ellipseyellowonclick.onclick = ellipseyellow.play
-
-
-let ellipseblue = anime ({
-targets: '.ellipseblue',
-top: ['520px','750px'],
-easing:'easeInSine',
-duration: 900,
-autoplay: false
-})
-
-let ellipseblueonclick =
-document.querySelector('.ellipseblue')
-ellipseblueonclick.onclick = ellipseblue.play
-
-
-let ellipsered = anime ({
-targets: '.ellipsered',
-top: ['1000px','1120px'],
-easing:'easeInSine',
-duration: 900,
-autoplay: false
-})
-
-let ellipseredonclick =
-document.querySelector('.ellipsered')
-ellipseredonclick.onclick = ellipsered.play
-
-let planetyellow = anime ({
-targets: '.planetyellow',
-top: ['1103px','1500px'],
-easing:'easeInSine',
-duration: 900,
-autoplay: false
-})
-
-let planetyellowonclick =
-document.querySelector('.planetyellow')
-planetyellowonclick.onclick = planetyellow.play
+let blueredClick =
+document.querySelector('.bluered')
+blueredClick.onclick = tl.play
