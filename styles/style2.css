@@ -30,37 +30,38 @@ body{
 
 .square1 {
   position: absolute;
-  transform: rotate(270deg);
-  height: 100vw;
+  background-color: white;
+  height: 1vw;
   width: 100vw;
-  top: -1vw;
+  top: 46vw;
   left: 0vw;
   z-index: 30;
 }
 
 .square2 {
   position: absolute;
-  transform: rotate(270deg);
-  height: 100vw;
+  background-color: white;
+  height: 1vw;
   width: 100vw;
-  top: 38vw;
+  padding: 0px;
+  top: 86vw;
   left: 0vw;
   z-index: 30;
 }
 
 .square3 {
   position: absolute;
-  transform: rotate(270deg);
-  height: 100vw;
+  background-color: white;
+  height: 1vw;
   width: 100vw;
-  top: 76vw;
+  top: 125vw;
   left: 0vw;
   z-index: 30;
 }
 .square4 {
   position: absolute;
   background-color: black;
-  height: 40vw;
+  height: 35vw;
   width: 100vw;
   top: 9vw;
   left: 0vw;
@@ -73,7 +74,7 @@ body{
   background-color: black;
   height: 39vw;
   width: 100vw;
-  top: 49vw;
+  top: 46vw;
   left: 0vw;
   z-index: 20;
 }
@@ -83,7 +84,7 @@ body{
   background-color: black;
   height: 37vw;
   width: 100vw;
-  top: 88vw;
+  top: 87vw;
   left: 0vw;
   z-index: 25;
 }
@@ -140,7 +141,7 @@ body{
   transform: rotate(90deg);
   width: 300px;
   top: 133vw;
-  left: 52vw;
+  left: 62vw;
   z-index: 35;
 }
 
@@ -151,6 +152,34 @@ body{
   top: -32vw;
   left: 52vw;
   z-index: 15;
+}
+
+.ellipseyellow2 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 170px;
+  top: 61vw;
+  left: 12vw;
+  z-index: 23;
+}
+
+.blueyellow {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 208px;
+  top: 94.3vw;
+  left: 56vw;
+  z-index: 27;
+}
+
+
+.ellipsered2 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 120px;
+  top: 141vw;
+  left: 26vw;
+  z-index: 35;
 }
 
 /* .ellipsered2 {
