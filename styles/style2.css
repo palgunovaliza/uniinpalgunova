@@ -1,4 +1,4 @@
-@import "reset.css";
+@import  " reset.css " ;
 
 body{
   background: black;
@@ -154,6 +154,15 @@ body{
   z-index: 15;
 }
 
+/* .bluered2 {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 28vw;
+  top: -32vw;
+  left: 52vw;
+  z-index: 15;
+} */
+
 .ellipseyellow2 {
   position: absolute;
   transform: rotate(270deg);
@@ -180,6 +189,15 @@ body{
   top: 141vw;
   left: 26vw;
   z-index: 35;
+}
+
+.ellipsered3 {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 10vw;
+  top: -6vw;
+  left: 16vw;
+  z-index: 15;
 }
 
 /* .ellipsered2 {

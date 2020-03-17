@@ -20,6 +20,10 @@ let tl = anime.timeline({
     easing:'easeInSine',
     duration: 800,
   }, 0)
+  // .add({
+  //   targets: '.bluered2',
+  //   display: none,
+  // }, 0)
 
 let yellowredClick =
 document.querySelector('.redyellow')
@@ -90,3 +94,54 @@ let tl4 = anime.timeline({
 let planetyellowClick =
 document.querySelector('.planetyellow')
 planetyellowClick.onclick = tl4.play
+
+// let tl5 = anime.timeline({
+//   autoplay: false
+// })
+//
+//   .add({
+//     targets: '.bluered',
+//     display: none,
+//   }, 0)
+//   .add({
+//     targets: '.bluered2',
+//     top: ['-25px','-300px'],
+//     easing:'easeInSine',
+//     duration: 800,
+//   }, 0)
+//   .add({
+//     targets: '.ellipsered3',
+//     top: ['-20px','45px'],
+//     easing:'easeInSine',
+//     duration: 800,
+//   }, 0)
+//
+//
+// let redbluewClick =
+// document.querySelector('.bluered2')
+// redblueClick.onclick = tl5.play
+//
+// let tl5 = anime.timeline({
+//   autoplay: false
+// })
+//
+//   .add({
+//     targets: '.bluered2',
+//     top:['-300px','-300px'],
+//     easing:'easeInSine',
+//     duration: 800,
+//   }, 0)
+//   .add({
+//     targets: '.bluered',
+//     display: none,
+//   }, 0)
+//   .add({
+//     targets: '.ellipsered3',
+//     top: ['-20px','45px'],
+//     easing:'easeInSine',
+//     duration: 800,
+//   }, 0)
+//
+// let bluered2Click =
+// document.querySelector('.bluered2')
+// bluered2Click.onclick = tl5.play
