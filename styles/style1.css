@@ -1,12 +1,22 @@
 @import "reset.css";
 
 body{
-  background: black;
+  background: white;
 }
-a{
+
+.index1 {
+  position: absolute;
+  font-size: 30px;
   color: black;
-  font: 10px;
-  z-index: 99;
+  z-index: 90;
+}
+
+.index2 {
+  position: absolute;
+  font-size: 30px;
+  left: 70px;
+  color: black;
+  z-index: 90;
 }
 
 .restangle {

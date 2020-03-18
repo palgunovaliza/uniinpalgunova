@@ -1,0 +1,156 @@
+@import "reset.css";
+
+body{
+  background:red;
+ }
+
+.squares{
+  position: relative;
+}
+
+.yellow{
+  position: absolute;
+  background-color: yellow;
+  height: 10vw;
+  width: 70vw;
+  left: 10vw;
+  top: 10.5vw;
+  z-index: 10;
+ }
+
+.blue{
+  position: absolute;
+  background-color: blue;
+  height: 10vw;
+  width: 70vw;
+  top: 167vw;
+  z-index: 10;
+ }
+
+.square1{
+  position: absolute;
+  height: 102vw;
+  width: 15vw;
+  top: 21vw;
+  background-color: black;
+  z-index: 10;
+}
+
+.square2{
+  position: absolute;
+  height: 15vw;
+  width: 84.7vw;
+  left: 15vw;
+  top: 21vw;
+  background-color: blue;
+  z-index: 10;
+}
+
+.square3{
+  position: absolute;
+  height: 44vw;
+  width: 29vw;
+  left: 15vw;
+  top: 36vw;
+  background-color: white;
+  z-index: 10;
+}
+
+.square4{
+  position: absolute;
+  height: 29vw;
+  width: 44vw;
+  top: 36vw;
+  left: 44vw;
+  background-color: black;
+  z-index: 10;
+}
+
+.square5{
+  position: absolute;
+  height: 29vw;
+  width: 11.7vw;
+  top: 36vw;
+  left: 88vw;
+  background-color: #FFD801;
+  z-index: 10;
+}
+
+.square6{
+  position: absolute;
+  height: 15vw;
+  width: 55.7vw;
+  top: 65vw;
+  left: 44vw;
+  background-color: blue;
+  z-index: 10;
+}
+
+.square7{
+  position: absolute;
+  height: 43vw;
+  width: 44vw;
+  top: 80vw;
+  left: 15vw;
+  background-color: #FFD801;
+  z-index: 10;
+}
+
+.square8{
+  position: absolute;
+  height: 28vw;
+  width: 25.7vw;
+  top: 80vw;
+  left: 74vw;
+  background-color: black;
+  z-index: 10;
+}
+.square9{
+  position: absolute;
+  height: 44vw;
+  width: 29vw;
+  top: 123vw;
+  left: 0vw;
+  background-color: white;
+  z-index: 10;
+}
+
+.square10{
+  position: absolute;
+  height: 72vw;
+  width: 15vw;
+  top: 80vw;
+  left: 59vw;
+  background-color: white;
+  z-index: 10;
+}
+
+.square11{
+  position: absolute;
+  height: 15vw;
+  width: 70.7vw;
+  top: 152vw;
+  left: 29vw;
+  background-color: blue;
+  z-index: 10;
+}
+
+.square12{
+  position: absolute;
+  height: 44vw;
+  width: 25.7vw;
+  top: 108vw;
+  left: 74vw;
+  background-color: #FFD801;
+  z-index: 10;
+}
+
+.square13{
+  position: absolute;
+  height: 29vw;
+  width: 29.7vw;
+  top: 123vw;
+  left: 29vw;
+  background-color: black;
+  z-index: 10;
+}
