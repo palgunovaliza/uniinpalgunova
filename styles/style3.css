@@ -34,16 +34,19 @@ body{
   top: 21vw;
   background-color: black;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square2{
   position: absolute;
+  transform: rotate(90deg);
   height: 15vw;
-  width: 84.7vw;
+  width: 64.7vw;
   left: 15vw;
   top: 21vw;
   background-color: blue;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square3{
@@ -54,36 +57,42 @@ body{
   top: 36vw;
   background-color: white;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square4{
   position: absolute;
+  transform: rotate(90deg);
   height: 29vw;
-  width: 44vw;
+  width: 20vw;
   top: 36vw;
   left: 44vw;
   background-color: black;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square5{
   position: absolute;
   height: 29vw;
-  width: 11.7vw;
+  width: 21.7vw;
   top: 36vw;
-  left: 88vw;
+  left: 65vw;
   background-color: #FFD801;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square6{
   position: absolute;
-  height: 15vw;
-  width: 55.7vw;
+  transform: rotate(90deg);
+  height: 35vw;
+  width: 35.7vw;
   top: 65vw;
-  left: 44vw;
+  left: 64vw;
   background-color: blue;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square7{
@@ -94,16 +103,19 @@ body{
   left: 15vw;
   background-color: #FFD801;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square8{
   position: absolute;
+  transform: rotate(90deg);
   height: 28vw;
   width: 25.7vw;
   top: 80vw;
-  left: 74vw;
+  left: 54vw;
   background-color: black;
   z-index: 10;
+  overflow: hidden;
 }
 .square9{
   position: absolute;
@@ -113,36 +125,42 @@ body{
   left: 0vw;
   background-color: white;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square10{
   position: absolute;
-  height: 72vw;
+  transform: rotate(90deg);
+  height: 2vw;
   width: 15vw;
   top: 80vw;
-  left: 59vw;
+  left: 29vw;
   background-color: white;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square11{
   position: absolute;
   height: 15vw;
-  width: 70.7vw;
+  width: 40.7vw;
   top: 152vw;
   left: 29vw;
   background-color: blue;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square12{
   position: absolute;
-  height: 44vw;
+  transform: rotate(90deg);
+  height: 30vw;
   width: 25.7vw;
   top: 108vw;
-  left: 74vw;
+  left: 70vw;
   background-color: #FFD801;
   z-index: 10;
+  overflow: hidden;
 }
 
 .square13{
@@ -153,4 +171,5 @@ body{
   left: 29vw;
   background-color: black;
   z-index: 10;
+  overflow: hidden;
 }

@@ -105,7 +105,7 @@ body{
   transform: rotate(270deg);
   top: -7vw;
   left: 69vw;
-  z-index: 15;
+  z-index: 17;
 
 }
 
@@ -151,17 +151,18 @@ body{
   width: 28vw;
   top: -32vw;
   left: 52vw;
-  z-index: 15;
+  z-index: 13;
 }
 
-/* .bluered2 {
+.bluered2 {
   position: absolute;
   transform: rotate(90deg);
+  opacity: 0;
   width: 28vw;
   top: -32vw;
   left: 52vw;
   z-index: 15;
-} */
+}
 
 .ellipseyellow2 {
   position: absolute;

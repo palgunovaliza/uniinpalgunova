@@ -1,8 +1,9 @@
 anime({
   targets: '.square1',
   height: 10,
-  easing: 'easeInOutQuad',
+  easing: 'linear',
   direction: 'alternate',
+  duration: 3000,
   loop: true,
 });
 
@@ -11,6 +12,7 @@ anime({
   width: 5,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 3000,
   loop: true,
 });
 anime({
@@ -18,6 +20,7 @@ anime({
   height: 7,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 400,
   loop: true,
 });
 anime({
@@ -25,6 +28,7 @@ anime({
   width: 20,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 200,
   loop: true,
 });
 anime({
@@ -32,6 +36,7 @@ anime({
   height: 5,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 1000,
   loop: true,
 });
 anime({
@@ -39,13 +44,16 @@ anime({
   width: 15,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 500,
   loop: true,
+
 });
 anime({
   targets: '.square7',
   width: 5,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 3000,
   loop: true,
 });
 anime({
@@ -53,6 +61,7 @@ anime({
   height: 20,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 350,
   loop: true,
 });
 anime({
@@ -60,6 +69,7 @@ anime({
   width: 10,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 2000,
   loop: true,
 });
 anime({
@@ -67,6 +77,7 @@ anime({
   height: 5,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 3700,
   loop: true,
 });
 anime({
@@ -81,6 +92,7 @@ anime({
   width: 7,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 700,
   loop: true,
 });
 anime({
@@ -88,5 +100,6 @@ anime({
   width: 9,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 300,
   loop: true,
 });
