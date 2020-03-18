@@ -60,28 +60,139 @@ let tl = anime.timeline({
 
   .add({
     targets: '.restangle1',
+    display: 'none',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.restangle2',
     height: 100,
+    top: 1442,
     easing:'easeInSine',
-    duration: 200,
+    duration: 300,
   }, 0)
   .add({
     targets: '.restangle3',
-    top: 1539,
+    height: 100,
+    top: 1541,
     easing:'easeInSine',
-    duration: 400,
+    duration: 300,
   }, 0)
   .add({
     targets: '.restangle4',
+    height: 100,
     top: 1640,
     easing:'easeInSine',
-    duration: 400,
+    duration: 300,
   }, 0)
-  // .add({
-  //   targets: '.restangle2',
-  //   display: none;
-  // }, 0)
 
 
 let restangle1Click =
 document.querySelector('.restangle1')
 restangle1Click.onclick = tl.play
+
+let tl2 = anime.timeline({
+  autoplay: false
+})
+  .add({
+    targets: '.restangle1',
+    height: 100,
+    easing:'easeInSine',
+    duration: 350,
+  }, 0)
+  .add({
+    targets: '.restangle2',
+    display: 'none',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.restangle3',
+    height: 100,
+    top: 1541,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+  .add({
+    targets: '.restangle4',
+    height: 100,
+    top: 1640,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+
+
+let restangle2Click =
+document.querySelector('.restangle2')
+restangle2Click.onclick = tl2.play
+
+let tl3 = anime.timeline({
+  autoplay: false
+})
+  .add({
+    targets: '.restangle1',
+    height: 100,
+    easing:'easeInSine',
+    duration: 350,
+  }, 0)
+  .add({
+    targets: '.restangle2',
+    height: 100,
+    top: 100,
+    easing:'easeInSine',
+    duration: 350,
+  }, 0)
+  .add({
+    targets: '.restangle3',
+    display: 'none',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.restangle4',
+    height: 100,
+    top: 1640,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+
+
+let restangle3Click =
+document.querySelector('.restangle3')
+restangle3Click.onclick = tl3.play
+
+
+let tl4 = anime.timeline({
+  autoplay: false
+})
+  .add({
+    targets: '.restangle1',
+    height: 100,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+  .add({
+    targets: '.restangle2',
+    height: 100,
+    top: 100,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+  .add({
+    targets: '.restangle3',
+    height: 100,
+    top: 200,
+    easing:'easeInSine',
+    duration: 300,
+  }, 0)
+  .add({
+    targets: '.restangle4',
+    display: 'none',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+
+
+let restangle4Click =
+document.querySelector('.restangle4')
+restangle4Click.onclick = tl4.play
