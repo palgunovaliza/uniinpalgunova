@@ -3,6 +3,11 @@
 body{
   background: black;
 }
+a{
+  color: black;
+  font: 10px;
+  z-index: 99;
+}
 
 .restangle {
   position: relative;
