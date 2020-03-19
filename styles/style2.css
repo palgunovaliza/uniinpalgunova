@@ -108,6 +108,16 @@ body{
   z-index: 17;
 
 }
+/*
+.redyellow2 {
+  position: absolute;
+  transform: rotate(270deg);
+  top: -7vw;
+  left: 69vw;
+  z-index: 17;
+  opacity: 0;
+
+} */
 
 .ellipseyellow {
   position: absolute;
@@ -125,6 +135,15 @@ body{
   top: 52vw;
   left: 53vw;
   z-index: 23;
+}
+
+.ellipseblue2 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 20vw;
+  top: 16vw;
+  left: 43vw;
+  z-index: 15;
 }
 
 .ellipsered {
@@ -170,6 +189,25 @@ body{
   width: 170px;
   top: 61vw;
   left: 12vw;
+  z-index: 20;
+}
+
+.ellipseyellow3 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 170px;
+  opacity: 0;
+  top: 61vw;
+  left: 12vw;
+  z-index: 24;
+}
+
+.yellowred{
+  position: absolute;
+  transform: rotate(90deg);
+  width: 170px;
+  top: 78vw;
+  left: 75vw;
   z-index: 23;
 }
 
@@ -198,9 +236,17 @@ body{
   width: 10vw;
   top: -6vw;
   left: 16vw;
-  z-index: 15;
+  z-index: 13;
 }
 
+.ellipseblue2 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 15vw;
+  top: 24vw;
+  left: 49vw;
+  z-index: 15;
+}
 /* .ellipsered2 {
   position: absolute;
   transform: rotate(90deg);

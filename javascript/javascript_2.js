@@ -51,7 +51,14 @@ let tl2 = anime.timeline({
     targets: '.ellipseyellow2',
     top: ['780px','600px'],
     easing:'easeInSine',
+    opacity: 100,
     duration: 800,
+  }, 0)
+  .add({
+    targets: '.ellipseyellow3',
+    easing:'linear',
+    opacity: ['100', '0'],
+    duration: 10,
   }, 0)
 
 let blueClick =
@@ -135,33 +142,43 @@ let tl5 = anime.timeline({
     easing:'easeInSine',
     duration: 800,
   }, 0)
+  .add({
+    targets: '.ellipseblue2',
+    top: ['372px','229px'],
+    easing:'easeInSine',
+    duration: 800,
+  }, 0)
 
 
 let bluered2Click =
 document.querySelector('.bluered2')
 bluered2Click.onclick = tl5.play
-//
-// let tl5 = anime.timeline({
-//   autoplay: false
-// })
-//
-//   .add({
-//     targets: '.bluered2',
-//     top:['-300px','-300px'],
-//     easing:'easeInSine',
-//     duration: 800,
-//   }, 0)
-//   .add({
-//     targets: '.bluered',
-//     display: none,
-//   }, 0)
-//   .add({
-//     targets: '.ellipsered3',
-//     top: ['-20px','45px'],
-//     easing:'easeInSine',
-//     duration: 800,
-//   }, 0)
-//
-// let bluered2Click =
-// document.querySelector('.bluered2')
-// bluered2Click.onclick = tl5.play
+
+let tl6 = anime.timeline({
+  autoplay: false
+})
+
+  .add({
+    targets: '.ellipseyellow3',
+    top: ['600px','780px'],
+    easing:'linear',
+    opacity: ['0', '100'],
+    duration: 800,
+  }, 0)
+  .add({
+    targets: '.ellipseyellow2',
+    easing: 'linear',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.yellowred',
+    top: ['770px','608px'],
+    easing:'easeInSine',
+    opacity: 100,
+    duration: 800,
+  }, 0)
+
+let ellipseyellow3Click =
+document.querySelector('.ellipseyellow3')
+ellipseyellow3Click.onclick = tl6.play
