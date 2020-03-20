@@ -12,7 +12,7 @@ body{
   position: absolute;
   background-color: yellow;
   height: 10vw;
-  width: 70vw;
+  width: 90vw;
   left: 10vw;
   top: -1vw;
   z-index: 99;
@@ -21,8 +21,8 @@ body{
 .blue{
   position: absolute;
   background-color: blue;
-  height: 10vw;
-  width: 70vw;
+  height: 20vw;
+  width: 100vw;
   top: 158vw;
   z-index: 99;
 }
@@ -164,6 +164,15 @@ body{
   z-index: 35;
 }
 
+.ellipseyellow4 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 170px;
+  top: 61vw;
+  left: 12vw;
+  z-index: 35;
+}
+
 .bluered {
   position: absolute;
   transform: rotate(90deg);
@@ -211,14 +220,36 @@ body{
   z-index: 23;
 }
 
+
 .blueyellow {
   position: absolute;
   transform: rotate(270deg);
   width: 208px;
   top: 94.3vw;
   left: 56vw;
+  z-index: 25;
+}
+
+
+.blueyellow2 {
+  position: absolute;
+  transform: rotate(270deg);
+  opacity: 0;
+  width: 208px;
+  top: 94.3vw;
+  left: 56vw;
   z-index: 27;
 }
+
+.planetred {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 159px;
+  top: 102vw;
+  left: 39vw;
+  z-index: 25;
+}
+
 
 
 .ellipsered2 {
@@ -237,6 +268,16 @@ body{
   top: -6vw;
   left: 16vw;
   z-index: 13;
+}
+
+.ellipsered4 {
+  position: absolute;
+  transform: rotate(270deg);
+  width: 120px;
+  opacity: 0;
+  top: 141vw;
+  left: 26vw;
+  z-index: 37;
 }
 
 .ellipseblue2 {

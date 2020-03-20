@@ -80,7 +80,14 @@ let tl3 = anime.timeline({
     targets: '.blueyellow',
     top: ['1135px','925px'],
     easing:'easeInSine',
+    opacity: 100,
     duration: 800,
+  }, 0)
+  .add({
+    targets: '.blueyellow2',
+    opacity: ['100', '0'],
+    easing: 'linear',
+    duration: 10,
   }, 0)
 
 let redClick =
@@ -102,9 +109,15 @@ let tl4 = anime.timeline({
     targets: '.ellipsered2',
     top: ['1500px','1378px'],
     easing:'easeInSine',
+    opacity: 100,
     duration: 800,
   }, 0)
-
+  .add({
+    targets: '.ellipsered4',
+    easing:'linear',
+    opacity: ['100', '0'],
+    duration: 10,
+  }, 0)
 let planetyellowClick =
 document.querySelector('.planetyellow')
 planetyellowClick.onclick = tl4.play
@@ -182,3 +195,60 @@ let tl6 = anime.timeline({
 let ellipseyellow3Click =
 document.querySelector('.ellipseyellow3')
 ellipseyellow3Click.onclick = tl6.play
+
+let tl7 = anime.timeline({
+  autoplay: false
+})
+
+  .add({
+    targets: '.blueyellow',
+    // top: ['1135px','925px'],
+    easing: 'linear',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.blueyellow2',
+    top: ['925px','1135px'],
+    easing:'linear',
+    opacity: ['0', '100'],
+    duration: 800,
+  }, 0)
+  .add({
+    targets: '.planetred',
+    top: ['1160px','998px'],
+    easing:'easeInSine',
+    duration: 800,
+  }, 0)
+
+let blueyellow2Click =
+document.querySelector('.blueyellow2')
+blueyellow2Click.onclick = tl7.play
+
+let tl8 = anime.timeline({
+  autoplay: false
+})
+
+  .add({
+    targets: '.ellipseyellow4',
+    top: ['1454px','1285px'],
+    easing: 'easeInSine',
+    duration: 800,
+  }, 0)
+  .add({
+    targets: '.ellipsered2',
+    easing: 'linear',
+    opacity: 0,
+    duration: 10,
+  }, 0)
+  .add({
+    targets: '.ellipsered4',
+    top: ['1378px','1500px'],
+    easing: 'linear',
+    opacity: ['0', '100'],
+    duration: 800,
+  }, 0)
+
+let ellipsered4Click =
+document.querySelector('.ellipsered4')
+ellipsered4Click.onclick = tl8.play
