@@ -1,0 +1,16 @@
+<svg width="340" height="176" viewBox="0 0 340 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M306.242 106.858C307.152 107.833 307.182 109.197 306.338 110.2L309.016 112.454L306.338 110.2C295.066 123.591 252.021 167.173 168.888 167.173C91.8149 167.173 45.1469 123.741 32.4164 110.127C31.4495 109.093 31.4496 107.616 32.413 106.584C45.0999 92.9921 91.6074 49.6665 168.893 49.5432C246.721 49.4191 293.803 93.533 306.242 106.858Z" fill="white" stroke="black" stroke-width="7"/>
+<path d="M5 69.2227C15.0323 77.6159 30.6892 90.715 30.6892 90.715" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.7422 33.5039C59.9623 44.4109 71.2305 61.4331 71.2305 61.4331" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.02 12.2578C112.228 24.6426 118.796 43.9711 118.796 43.9711" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M233.027 12.0391C229.152 24.532 223.103 44.0292 223.103 44.0292" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M169.566 4C169.281 17.0771 168.835 37.4861 168.835 37.4861" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M291.992 37.7852C284.944 48.8039 273.943 66.0003 273.943 66.0003" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M334.844 70.0703C326.013 79.7202 312.232 94.7803 312.232 94.7803" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="27" y="51" width="283" height="125">
+<path d="M308.046 109.728C310.157 111.989 310.254 115.345 308.262 117.712C296.585 131.584 252.645 175.931 168.134 175.931C89.6726 175.931 42.1436 131.718 29.106 117.775C26.8832 115.398 26.8798 111.833 29.1005 109.454C42.0993 95.5275 89.4659 51.4265 168.134 51.301C247.359 51.1747 295.304 96.0779 308.046 109.728Z" fill="#171516"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="168.836" cy="81.3323" r="45.301" fill="#FFD801" stroke="black" stroke-width="7"/>
+</g>
+</svg>

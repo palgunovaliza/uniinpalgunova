@@ -1,0 +1,102 @@
+@import  "reset.css ";
+
+body{
+  background: blue;
+}
+
+
+.eyes {
+  position: relative;
+}
+
+.yellow{
+  position: absolute;
+  background-color: yellow;
+  height: 31vw;
+  width: 90vw;
+  left: 10vw;
+  top: -1vw;
+  z-index: 99;
+}
+.eyeclose1{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 44vw;
+  z-index: 15;
+  display: none;
+}
+
+.eyered1{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 32vw;
+  z-index: 10;
+}
+.eyeblack1{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 62vw;
+  z-index: 10;
+}
+.eyeyellow1{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 92vw;
+  z-index: 10;
+}
+
+.eyered2{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 122vw;
+  z-index: 10;
+}
+.eyeblack2{
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  top: 152vw;
+  z-index: 10;
+}
+
+.eyeyellow2{
+  position: absolute;
+  width: 40vw;
+  left: 55vw;
+  top: 32vw;
+  z-index: 10;
+}
+.eyered3{
+  position: absolute;
+  width: 40vw;
+  left: 55vw;
+  top: 62vw;
+  z-index: 10;
+}
+.eyeblack3{
+  position: absolute;
+  width: 40vw;
+  left: 55vw;
+  top: 92vw;
+  z-index: 10;
+}
+
+.eyeyellow3{
+  position: absolute;
+  width: 40vw;
+  left: 55vw;
+  top: 122vw;
+  z-index: 10;
+}
+.eyered4{
+  position: absolute;
+  width: 40vw;
+  left: 55vw;
+  top: 152vw;
+  z-index: 10;
+}

@@ -1,0 +1,145 @@
+@import "reset.css";
+
+body{
+  background: white;
+}
+
+.index2 {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  z-index: 90;
+}
+
+.index3 {
+  position: absolute;
+  font-size: 30px;
+  left: 70px;
+  color: black;
+  z-index: 90;
+}
+.index4 {
+  position: absolute;
+  font-size: 30px;
+  left: 140px;
+  color: black;
+  z-index: 90;
+}
+
+
+.restangle {
+  position: relative;
+}
+
+.restangle1 {
+  position: absolute;
+  background: #FFD801;
+  width: 100vw;
+  height: 42vw;
+  top: 0vw;
+  left: 0vw;
+}
+
+
+.restangle2 {
+  position: absolute;
+  background: black;
+  width: 100vw;
+  height: 40vw;
+  top: 42vw;
+  left: 0vw;
+}
+
+
+.restangle3 {
+  position: absolute;
+  background: red;
+  width: 100vw;
+  height: 54vw;
+  top: 82vw;
+  left: 0vw;
+}
+
+.restangle4 {
+  position: absolute;
+  background: blue;
+  width: 100vw;
+  height: 45vw;
+  top: 133vw;
+  left: 0vw;
+}
+
+.stars {
+  position: relative;
+}
+
+.restangle1 .staryellow {
+  position: absolute;
+  height: 70px;
+  left: 1vw;
+  top: 1vw;
+}
+
+
+.restangle2 .starblack1 {
+  position: absolute;
+  height: 70px;
+  left: 1vw;
+  top: 1vw;
+}
+
+.restangle2 .starblack2 {
+  position: absolute;
+  height: 70px;
+  left: 10vw;
+  top: 1vw;
+}
+
+.restangle3 .starred1{
+  position: absolute;
+  height: 70px;
+  left: 1vw;
+  top: 1vw;
+}
+
+.restangle3 .starred2 {
+  position: absolute;
+  height: 70px;
+  left: 10vw;
+  top: 1vw;
+}
+
+.restangle3 .starred3 {
+  position: absolute;
+  height: 70px;
+  left: 19vw;
+  top: 1vw;
+}
+
+.restangle4 .starblue1 {
+  position: absolute;
+  height: 70px;
+  left: 1vw;
+  top: 1vw;
+}
+
+.restangle4 .starblue2 {
+  position: absolute;
+  height: 70px;
+  left: 10vw;
+  top: 1vw;
+}
+
+.restangle4 .starblue3 {
+  position: absolute;
+  height: 70px;
+  left: 19vw;
+  top: 1vw;
+}
+
+.restangle4 .starblue4 {
+  position: absolute;
+  height: 70px;
+  left: 28vw;
+  top: 1vw;
+}
